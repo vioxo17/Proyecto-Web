@@ -1,0 +1,75 @@
+body{
+    background-image: url("D:/Users/diego/Desktop/prueba/Proyecto Web/FOTOS/bueno5.jpg");
+}
+
+@media (max-width: 767px){
+    
+    #Titulo{
+        color: #9D9B9A;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 250px;
+        font-family: Georgia, 'Times New Roman', Times, serif;  
+        
+    
+    }
+    
+    .Enlaces{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 20%;
+        right: 20%;
+    
+    }
+    
+    .Boton{
+        font-size: 15px;
+        border-color: white;
+        padding: 7px 15px; 
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        cursor: pointer; 
+        background-color: transparent;
+        color: #9D9B9A;
+       
+    }
+    
+}
+
+@media (min-width: 767px){
+
+    
+    #Titulo{
+        color: #9D9B9A;
+        font-size: 100px;
+        text-align: center;
+        margin-top: 250px;
+        font-family: Georgia, 'Times New Roman', Times, serif;  
+        
+    
+    }
+    
+    .Enlaces{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+    
+    }
+    
+    .Boton{
+        font-size: 20px;
+        border-color: white;
+        padding: 20px 50px; 
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        cursor: pointer; 
+        background-color: transparent;
+        color: #9D9B9A;
+       
+    }
+    
+}
+
