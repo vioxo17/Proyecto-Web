@@ -1,5 +1,5 @@
 body{
-    background-image: url("D:/Users/diego/Desktop/prueba/Proyecto Web/FOTOS/bueno5.jpg");
+    background-image: url("/Proyecto Web/FOTOS/bueno5.jpg");
 }
 
 @media (max-width: 767px){
